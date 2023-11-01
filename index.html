@@ -54,111 +54,85 @@
             </div>
          </div>
          <img src="./asset/image/banner.png">
-         <div class="card">
-            <h3>Hi, I'm </h3>
-            <h1 class="card-header text-responsive">Rafly Lesmana 🙌🏻</h1>
-            <div class="card-contains">
-               <h3>From Section Medan</h3>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua.
-               </p>
-            </div>
-            <div class="card-action">
-               <a href="#"><button class="btn btn-display">📞 Contact me</button></a>
-               <a href="#"><button class="btn btn-outline">👩🏻‍💻 Download CV</button></a>
-            </div>
-         </div>
       </div>
    </section>
 
    <section class="container">
       <div class="container flex">
- 
+         <div class="card">
+            <h1 class="card-subheader">Favorite things 💬</h1>
+            <table class="table" border="1" cellspacing="0">
+               <tr>
+                  <th>Number</th>
+                  <th>Title</th>
+                  <th>Rate</th>
+               </tr>
+               <tr>
+                  <td>1</td>
+                  <td>One piece ☠️</td>
+                  <td>10/10</td>
+               </tr>
+               <tr>
+                  <td>2</td>
+                  <td>Meme 😆</td>
+                  <td>9/10</td>
+               </tr>
+               <tr>
+                  <td>3</td>
+                  <td>Space 🪐</td>
+                  <td>10/10</td>
+               </tr>
+               <tr>
+                  <td>4</td>
+                  <td>Tech 👨🏽‍💻</td>
+                  <td>9/10</td>
+               </tr>
+            </table>
+         </div>
       </div>
-
-
-      <div class="parent">
-         <div class="div1">1</div>
-         <div class="div2">2</div>
-         <div class="div3">
-            <div class="card">
-               <h1 class="card-subheader">Favorite things 💬</h1>
-               <table class="table" border="1" cellspacing="0">
-                  <tr>
-                     <th>Number</th>
-                     <th>Title</th>
-                     <th>Rate</th>
-                  </tr>
-                  <tr>
-                     <td>1</td>
-                     <td>One piece ☠️</td>
-                     <td>10/10</td>
-                  </tr>
-                  <tr>
-                     <td>2</td>
-                     <td>Meme 😆</td>
-                     <td>9/10</td>
-                  </tr>
-                  <tr>
-                     <td>3</td>
-                     <td>Space 🪐</td>
-                     <td>10/10</td>
-                  </tr>
-                  <tr>
-                     <td>4</td>
-                     <td>Tech 👨🏽‍💻</td>
-                     <td>9/10</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="div4">
-            <div class="card">
-               <h1 class="card-subheader">Contact me ✅</h1>
-               <div class="card-contains">
-                  <form action="./forminput.html" method="post">
-                     <div class="form-group">
-                        <label for="name">inputkan nama anda :</label><br>
-                        <input id="name" name="name" type="text" placeholder="name" required
-                           oninvalid="this.setCustomValidity('siapa namamu!!🔥')"><br>
-                     </div>
-                     <div class="form-group">
-                        <label for="email">inputkan email anda :</label><br>
-                        <input id="email" type="email" placeholder="email" name="email"><br>
-                     </div>
-   
-                     <div class="form-group">
-                        <label for="password">inputkan pasword anda :</label><br>
-                        <input id="password" type="password" placeholder="password" name="password"><br>
-                     </div>
-   
-                     <div class="form-group">
-                        <label for="age">inputkan umur anda anda :</label><br>
-                        <input id="age" type="number" placeholder="age" min="12" max="20" name="age"><br>
-                     </div>
-   
-                     <div class="form-group">
-                        <label for="phone">inputkan telefon anda anda :</label><br>
-                        <input id="phone" type="tel" placeholder="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                           name="phone"><br>
-                        <span style="color: gray;">phone number using this requested format (08x-xxx-xxxx)</span><br>
-                     </div>
-   
-                     <div class="form-group">
-                        <label for="email">pilih gender anda :</label><br>
-                        <select id="gender" name="gender">
-                           <option>laki-laki</option>
-                           <option>perempuan</option>
-                        </select>
-                     </div>
-                     <br>
-                     <input class="submit-btn" type="submit" value="submit data">
-                  </form>
+      <div class="card">
+         <h1 class="card-subheader">Contact me ✅</h1>
+         <div class="card-contains">
+            <form action="./forminput.html" method="post">
+               <div class="form-group">
+                  <label for="name">inputkan nama anda :</label><br>
+                  <input id="name" name="name" type="text" placeholder="name" required
+                     oninvalid="this.setCustomValidity('siapa namamu!!🔥')"><br>
                </div>
-            </div>
+               <div class="form-group">
+                  <label for="email">inputkan email anda :</label><br>
+                  <input id="email" type="email" placeholder="email" name="email"><br>
+               </div>
+
+               <div class="form-group">
+                  <label for="password">inputkan pasword anda :</label><br>
+                  <input id="password" type="password" placeholder="password" name="password"><br>
+               </div>
+
+               <div class="form-group">
+                  <label for="age">inputkan umur anda anda :</label><br>
+                  <input id="age" type="number" placeholder="age" min="12" max="20" name="age"><br>
+               </div>
+
+               <div class="form-group">
+                  <label for="phone">inputkan telefon anda anda :</label><br>
+                  <input id="phone" type="tel" placeholder="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                     name="phone"><br>
+                  <span style="color: gray;">phone number using this requested format (08x-xxx-xxxx)</span><br>
+               </div>
+
+               <div class="form-group">
+                  <label for="email">pilih gender anda :</label><br>
+                  <select id="gender" name="gender">
+                     <option>laki-laki</option>
+                     <option>perempuan</option>
+                  </select>
+               </div>
+               <br>
+               <input class="submit-btn" type="submit" value="submit data">
+            </form>
          </div>
-         </div>
+      </div>
    </section>
 </body>
 </html>
